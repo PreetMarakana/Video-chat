@@ -13,18 +13,19 @@ body{
 video {
 	width: 90%;
 	height: 90%;
+	padding-left: 5%;
 	object-fit: contain;
 	position: absolute;
 }
+
 video:fullscreen {
 	object-fit: contain;
 }
 
-
 .video {
 	
 	float: left;
-	width: 55vw;
+	width: 50vw;
 	height: 100vh;
 	 overflow: hidden; 
 	position: relative;
@@ -34,15 +35,23 @@ video:fullscreen {
 	width: 100vw;
 	height: 100vh;
 }
-.video.two {	
+.video.two {
+	padding-left: 2.5%;	
 	float: left;
 	border-radius: 3rem;
-	width: 50vw;
+	width: 46vw;
 	height: 100vh;	
 }
 .video.three {
+	position: relative;
+	float: left;
 	width: 50%;
-	height: 50%;
+	height: 280px;
+}
+.video.main{
+align-items: center;
+width: 100%;
+height: 280px;
 }
 .video.four {
 	width: 50vw;
@@ -54,9 +63,9 @@ video:fullscreen {
 }
 
 .mirror {
-	transform: rotateY(180deg);
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
+	 transform: rotateY(180deg);
+	/*-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg); */
 }
 
 .mirror.one{
@@ -64,13 +73,14 @@ video:fullscreen {
 	height: 90%;
 }
 .mirror.two{
-	height: 90%;
+ width: 90%;
+ padding-left: 5%;
+ height: 90%;
 }
 .mirror.three{
-	
-width: 90%;
+width: 100%;
 height: 90% ;
-} 
+}  
 .fa-microphone-slash,
 .fa-video-slash {
 	color: #e74c3c !important;
@@ -162,24 +172,7 @@ height: 90% ;
 	font-size: 1rem;
 	left: 27vh;	
 }
-@media only screen and (max-width: 960px) {
-	.video {
-		float: left;
-		width: 50vw;
-		height: 25vh;
-		overflow: hidden;
-	}
-	.video.two {
-		width: 100vw;
-		height: 50vh;
-	}
-	.video.three {
-		width: 100vw;
-		height: 33.33vh;
-	}
-	.video.six {
-		width: 50vw;
-		height: 33.33vh;
-	}
-}
+
+
+
  

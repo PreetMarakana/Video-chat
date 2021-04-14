@@ -307,8 +307,11 @@ const resizeVideos = () => {
 	document.querySelectorAll(".video").forEach((v) => {
 		v.className = "video " + numToString[videos.length];		
 	});
-	
-	
+	var str ="three";
+	if(numToString[videos.length].localeCompare(str)==0){
+	myDiv.className = "video " + "main";
+	}
+
 };
 
 
