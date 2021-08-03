@@ -108,9 +108,8 @@ function init() {
 		peerConnection.onaddstream = function(event) {
 			const videoWrap = document.createElement("div");
 			videoWrap.className = "video";
-			
 			// const my = document.createElement("div");			
-            // my.id="btnss";
+                        // my.id="btnss";
 			// const muteb=document.createElement("button");
 			// muteb.className="fas fa-microphone" ;
 			
